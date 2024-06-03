@@ -1,0 +1,7 @@
+.payments{
+    display: flex;
+}
+.payment{
+    border: 0.3px solid grey;
+    padding: 20px;
+}

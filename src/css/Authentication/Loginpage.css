@@ -1,0 +1,269 @@
+.mainwrapper{
+    background-image: linear-gradient(70deg,violet,#7545f9) ;
+     background-image: linear-gradient(320deg,pink,#7545f9); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 16em;
+    
+}
+.wrapper
+{
+
+
+    margin-top: em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+    margin-left:40% ;
+    width: 440px;
+    height: 500px; 
+
+   
+    
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 0.5px solid whitesmoke;
+     border-radius: 20px;
+    backdrop-filter:blur(100px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    background: url(technoligy-white.jpg) no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+    /* transform: scale(0); */
+    transition: transform 0.5s ease, height 0.2s ease;
+} 
+  /* .wrapper.active-popup{
+    transform: scale(1);
+}  */
+
+/* .wrapper.active{
+    height: 520px;
+}   */
+  /* .wrapper .form-box.login{
+    transition: transform 0.18s ease;
+    transform: translateX(-400px);
+}  */
+/* .wrapper.active .form-box.login
+{
+    transition: none;
+    transform: translateX(0);
+}  */
+/* .wrapper .form-box.registration{
+    position: absolute;
+    transition: none;
+    transform: translateX(-400px);
+} 
+.wrapper.active .form-box.registration{
+    transition: transform 0.18s ease;
+    transform: translateX(400px);
+
+} */
+
+/* .wrapper .icon-close{
+    position:absolute;
+    top: 0;
+    right: 0;
+
+    width: 45px;
+    height: 45px;
+    background-color: #162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer; 
+    z-index: 1; 
+ } */
+.wrapper:hover{
+
+    box-shadow: 0 0 40px black;
+}
+.wrapper .form-box .login
+{
+    width: 100%;
+    padding: 40px;
+} 
+
+.form-box h2{
+font-size: 2em;
+
+text-align: center; 
+ } 
+.input-box
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    /* border-bottom: 2px solid white; */
+    margin: 10px 0; 
+}  
+ .input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px; 
+     transform: translateY(-50%); 
+    font-size: 1em;
+    color: #162938; 
+    /* color: white; */
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input-box input 
+{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+} 
+ .input-box .icon
+{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938; 
+    line-height: 57px;
+} 
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+.remember-forgot{
+    font-size: 0.9em;
+    color: #162938; 
+     font-weight: 500; 
+     margin: -15px 0 15px; 
+     margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+     align-items: center; 
+
+ }
+label{
+    margin-right: 100px;
+} 
+.remember-forgot label input{
+    accent-color: #162938; 
+     accent-color:black; 
+     margin-right: 3px;
+} 
+.remember-forgot a{
+    color: #162938; 
+    text-decoration: none;
+} 
+.remember-forgot a:hover{
+    text-decoration: underline;
+} 
+.loginbtn
+{
+    width: 100%;
+    height: 45px;
+    background-color: #162938; 
+    /* background-color: white;  */
+     border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white; 
+     font-weight: 500; 
+ } 
+ .login-register{
+    font-size: 0.9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}  
+.login-register p a{
+     color: #162938; 
+    color: black;
+    text-decoration: none; 
+     font-weight: 600; 
+     font-weight: 600;
+    margin-left: 2px; 
+} 
+.login-register p a:hover{
+    text-decoration: underline;
+} 
+.loginEmail_error{
+    color: red;
+    margin-left: -5em;
+}
+.loginPassword_error{
+    color: red;
+    margin-left: -3em;
+}
+/* .error{
+    color: red;
+    margin-top: -50px;
+} */
+/* --------------------- Register page ------------------------- */
+/* .wrapper .form-box.registration{
+    position: absolute;
+    transform: translateX(0);
+} */
+
+
+
+
+
+/* .form-box.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 20em;
+    
+}
+.form-box.login form{
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow:pink 2px 0.5px 10px ;
+    padding: 50px;
+    background-image: url(technoligy-white.jpg);
+    background-size: cover;
+    backdrop-filter:blur(100px);
+    width: 40%;
+    height: 25em;
+} */
+/* .form-box.registration form h2{
+    color: #162938;
+    font-size: 2em;
+} */
+/* .input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+/* .input-box label{
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: -84em;
+    color: #162938;
+    position: absolute;
+}
+.input-box input{
+    position: relative;
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #162938;
+    background: transparent;
+    outline: none;
+    
+} */

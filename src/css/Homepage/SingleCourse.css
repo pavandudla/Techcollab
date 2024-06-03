@@ -1,0 +1,94 @@
+.single_course_div{
+    border:0.5px solid white;   
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+   
+}
+.single_course_div:hover{
+    border:0.5px solid rgb(193, 193, 193);
+    border-radius: 10px;
+}
+.course_img{
+    margin: 15px 0px;
+}
+.course_img img{
+    width: 95%;
+   
+}
+.course_details{
+    margin: 15px;
+}
+.course_category_price{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+.tag{
+    /* border: 0.5px solid green; */
+    padding: 7px 10px;
+    border-radius: 7px;
+    /* background-color: rgba(0, 128, 0, 0.648); */
+    background-color: #f8474c;
+    color:white;
+    font-weight: 600;
+    margin-left: -50px;
+   
+}
+.course_price{
+    font-weight: 700;
+    font-size: 20px;
+    color: #f8474c;;
+}
+.course_name{
+    text-align: start;
+    margin-left: 10px;
+}
+.course_no_of_lessons_students_enrolled{
+    display: flex;
+    justify-content: space-around;
+    margin-left:2px;
+}
+.rating{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.course_no_of_lessons_students_enrolled{
+    display: flex;
+    justify-content: space-between;
+    color: #3e3e3e;
+}
+.lesson_icon_no_of_lessons{
+    display: flex;
+    justify-content: space-between;
+    color: #3e3e3e;
+}
+.lesson_icon{
+    width:19px;
+    height: 19px;
+}
+.person_logo{
+    width: 19px;
+    
+}
+.person_logo_students_enrolled{
+    display: flex;
+    gap: 5px;
+}
+.rating{
+    text-align: left;
+    display: flex;
+    gap:15px;
+}
+button{
+    padding:10px;
+    border:none;
+    width:30%; 
+    background-color: rgba(0, 128, 0, 0.648);
+    border-radius: 7px;
+    color: white;
+    cursor:pointer;
+}

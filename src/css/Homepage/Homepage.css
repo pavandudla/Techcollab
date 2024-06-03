@@ -1,0 +1,415 @@
+.homemain{
+    /* margin: 0; */
+
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* background: url(business-technology.jpeg) no-repeat;
+    background-size: cover; */
+    background: url(multicolor.jpeg) no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(500%);
+    height: 700px;
+
+}
+.heading{
+    margin-top: 192em;
+    margin-bottom: 3em;
+    font-size: 30px;
+}
+.video{
+    border: 2px solid white;
+
+}
+.headerbelow{
+    color: black;
+}
+.headerbelow p{
+    color: #7545f9;
+    /* background: linear-gradient(90deg,#1e8bff,#6955ff 45%,#a83af5 50%,#c03ada 75%); */
+    /* background: transparent; */
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 5em;
+}
+.headerbelow div{
+    color: #211c51;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-left: -50px;
+    margin-top: 35px;
+}
+.headerbelow1{
+    color: #211c51;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.headerbelow1 {
+    margin-left: 90px;
+}
+.headerbelow2{
+    color: #211c51;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 12em;
+
+}
+.headerbelow2sub1{
+    color:#1e8bff;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.headerbelow2sub2{
+    color:#6955ff;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.headerbelow2sub3{
+    color:#a83af5;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.headerbelow2sub4{
+    color:#c03ada;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.sub{
+    margin-right: 130px;
+    font-weight: 300;
+}
+.sub .year{
+    margin-left: -35px;
+    font-weight: 300;
+}
+.sub .student{
+    margin-left: -5px;
+    font-weight: 300;
+}
+.sub .youtube{
+    margin-left: -20px;
+    font-weight: 300;
+}
+.sub .coding{
+    margin-left: -30px;
+    font-weight: 300;
+}
+.whycode{
+    font-size: 17px;
+    color: #7545f9;
+    margin-top: 5em;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 2em;
+    /* background-color: linear-gradient(90deg,#1e8bff,#6955ff 45%,#a83af5 50%,#c03ada 75%); */
+    /* background: transparent; */
+}
+.master{
+    color: #211c51;
+    font-size: 35px;
+    /* margin-top: 1.5em; */
+    font-weight: 700;
+}
+
+/* ----------------------------------------------------- */
+
+.main-master{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+   
+
+}
+.master_coding_skills_steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    color: black;
+    margin-top:5em;
+   
+
+}
+.master_coding_skills_steps .step1 #step_by_step{
+    margin-left: -14%;
+}
+.master_coding_skills_steps .step1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 4em;
+    line-height: 1.4;
+    font-size: 14px;
+   
+    
+}
+.master_coding_skills_steps .step1 #follow_id{
+
+    font-size: 22px;
+    color: #211c51;
+    font-weight: 600;
+    margin-left: -79%;
+   
+
+}
+.master_coding_skills_steps .step1 .biginner{
+    font-size: 22px;
+    color: #211c51;
+    font-weight: 600;
+    margin-left: -10%;
+}
+.master_coding_skills_steps .step1 .mosh-student{
+    margin-left: -2%;
+    color: #211c51;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.master_coding_skills_steps .step1 #mosh-student1{
+    margin-left: -8%;
+    color: #211c51;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.master_coding_skills_steps .step1 #And_apply{
+    margin-left: -8%;
+    color: #211c51;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.master_coding_skills_steps .step1 #bogged{
+    margin-left: -4%;
+    color: #211c51;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.master_coding_skills_steps .step1 #courses_id{
+    margin-left: -80%;
+    color: #211c51;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.master_coding_skills_steps .step1 #concept{
+    color: #211c51;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.master_coding_skills_steps .step1_two img{
+  border-radius: 1em;
+ 
+}
+.master_coding_skills_steps .step1_two{
+    background-image: linear-gradient(220deg,pink,blue);
+    width: 170px;
+    height: 170px;
+    padding-top: 2em;
+    border-radius: 2em;
+}
+.master_coding_skills_steps #step1{
+    margin-left: -10%;
+}
+
+/* ----------------------------------------- css of allcourses ----------------------------------------------  */
+.allcourses_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    height: 150%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 80px;
+    padding-top:80px ;
+}
+.allcourses_main .allcourses_submain{
+    color: black;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 3em;
+}
+.allcourses{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+    max-width: 300px;
+   
+}
+.allcourses-down{
+    background-color:#ffffff;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    margin-bottom: 2em;
+    border: 1px solod black;
+   
+}
+.allcourses .subscription{
+    color: black;
+    font-weight: 700;
+    /* background-color:#ffffff; */
+    margin-top: -4px;
+    padding-top: 16px;
+    padding-left: -77px;
+}
+.subscription-down
+{
+    color: #6f6b6b;
+    /* background-color:#ffffff ; */
+    padding-top: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.bundels{
+    color: black;
+    font-weight: 400;
+    padding-bottom: 10px;
+    /* background-color:#ffffff ; */
+}
+.allaccess{
+   margin-right: 20px;
+   max-height: 300px;
+}
+.course-box-allaccessimg{
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+   
+}
+.python{
+    margin-right: 20px; 
+}
+.course-box-pythonimg{
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+.course-box-reactimg{
+    border-top-right-radius: 9px; 
+    border-top-left-radius: 9px;
+}
+.allcourses2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+.course-box-cplusimg{
+    border-top-right-radius: 9px; 
+    border-top-left-radius: 9px;
+   
+}
+.cplus{
+    margin-right: 20px;
+}
+.html-and-css{
+    margin-right: 20px;
+}
+.course-box-html-and-css{
+    border-top-right-radius: 9px; 
+    border-top-left-radius: 9px;
+}
+.course-box-javascript{
+    border-top-right-radius: 9px; 
+    border-top-left-radius: 9px;
+   
+}
+.viewallcourses_btn{
+    background-color: #8244FF;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 6em;
+    width: 15em;
+    font-weight: 700;
+}
+.Not-sure-where-to-start
+{
+    color: #1e2030;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Poppins' sans-serif;
+    margin-bottom: 10em;
+}
+.Not-sure-where-to-start a{
+    text-decoration: none;
+}
+.bottom{
+    background-color: #210c27;
+    width: 100%;
+    height: 100%;
+    padding: 10em;
+    margin-bottom: 20em;
+}
+.amazon{
+    color: #7545f9;
+
+}
+.members{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.Why-buy-just{
+    color: white;
+    font-size: 18px;
+}
+.money{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 40px;
+    border: 2px solid #3d174f;
+    border-radius: 14px;
+    max-width: 400px;
+    margin-left: 36em;
+    margin-top: 30px;
+    background-color:#3d174f;
+}
+.join{
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.thirtydaysimg{
+    margin-top: 30px;
+}
+.subscribe_btn{
+    background-color:#7549f0;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 6em;
+    width: 15em;
+    font-weight: 700;
+    margin-left: 6em;
+   margin-bottom: 15em;
+}

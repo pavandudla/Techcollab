@@ -1,0 +1,180 @@
+
+.menu{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+
+}
+.menu
+{
+
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    padding: 0 100px;
+    /* background-color:#e7efea; */
+   background-color: white;
+    box-shadow: 1px 1px rgba(255,255,255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    height: 60px;
+
+}
+
+.logo img{
+    height: 10em;
+    width: 15em;
+    margin-left: 50px;
+}
+.lists
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    margin-right: 100px;
+}
+
+.lists a{
+    position: relative;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lists a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    /* background-color: #fb5927; */
+    background-color:#7545f9;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    transform-origin: right;
+}
+.lists a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+.lists .btnlogin-popup {
+    width: 120px;
+    /* padding: 7px; */
+    padding-right: 3em;
+    padding-left: 0px;
+    /* height: 47px; */
+    /* background: #108882;
+    border: 2px solid #108882; */
+    /* border: 2px solid #7545f9; */
+    /* box-shadow: 0.8px 2px 5px 0.8px black; */
+    background: transparent;
+    /* background-color: #7545f9; */
+    outline: none;
+    /* border-radius: 30px; */
+   color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    /* color: black; */
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.lists .btnlogin-popup1 {
+    width: 120px;
+    /* padding: 7px; */
+    padding-right: 8em;
+    padding-left: -2px;
+    /* height: 47px; */
+    /* background: #108882;
+    border: 2px solid #108882; */
+    border: 2px solid #7545f9;
+    /* box-shadow: 0.8px 2px 5px 0.8px black; */
+    /* background: transparent; */
+    background-color: #7545f9;
+    outline: none;
+    border-radius: 30px;
+   color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    /* color: black; */
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.lists .btnlogin-popup1:hover{
+    /* background-color: #fb5927; */
+    /* background-color: #79a5e4; */
+    background-color: #7545f9;
+    /* color: #162938; */
+    color: white;
+    border: #79a5e4;
+}
+.lists .btnlogin-popup .login_link{
+    text-decoration: none;
+    color:black
+   
+   
+}
+.lists .btnlogin-popup1 .register_link{
+    text-decoration: none;
+    color: white;
+    margin-left: 1.3em;
+   
+}
+.profile_details{
+    
+    /* position: relative; */
+    list-style-type: none;
+}
+.profile_details .profile_details_of_mycourse{
+    display: none;
+    padding: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+    background-color: white;
+    list-style-type: none;
+    position: absolute;
+    margin-left: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 0.5px 5px black;
+    padding: 30px 30px;
+}
+.profile_details:hover .profile_details_of_mycourse{
+    position:absolute;
+}
+.profile_details:focus-within .profile_details_of_mycourse{
+    display: flex;
+    flex-direction: column;
+}
+.profile_details_of_mycourse .profile_mycourses{
+   display: block;
+   padding: 5px 0;
+   color: black;
+   font-weight: 600;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.profile_details_of_mycourse:hover .profile_mycourses{
+ background-color: antiquewhite;
+}
+
+
+

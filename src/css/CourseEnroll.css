@@ -1,0 +1,22 @@
+.course_enroll_course_payment_details{
+    text-align: start;
+    /* margin-left: 10%; */
+    width:90%;
+    margin: 0 auto;
+}
+.error_div{
+    padding: 5px;
+    border:1px solid rgb(249, 86, 86);
+}
+.course_details_course_enroll{
+    width: 30%;
+}
+.course_enroll_course_details{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.estimated_tax, .total_amount{
+    display: flex;
+    justify-content: space-between;
+}
